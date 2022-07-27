@@ -26,20 +26,11 @@
     left: 34%;
     transition: .5s;
 }
-
-#welc-screen{
-    box-shadow: 0px 0px 10px rgb(84, 84, 179);
-    border-radius: 5px;
-    background-color: rgb(14, 14, 32);
-    width: 450px;
-    text-align: center;
-    position: relative;
-    top: 30%;
-    transition: .5s;
+section {
+    height: 3px;
 }
 
-
-#welc-screen:hover {
+#preppend-div:hover {
     transform: scale(1.3);
     transition: .5s;
 }
@@ -54,7 +45,7 @@ p {
     font-size: 20px;
 }
 
-.welc-scrn-btn {
+#welc-scrn-btn {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -67,7 +58,7 @@ p {
     cursor: pointer;
 }
 
-.welc-scrn-btn:hover {
+#welc-scrn-btn:hover {
     letter-spacing: 2px;
     margin-left: 2px;
     transition: .5s;
@@ -102,7 +93,6 @@ p {
 #quest-screen{
     display: none;
 }
-
 
 .correct-ans {
     background-color: rgb(52, 131, 52);

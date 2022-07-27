@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Oswald:wght@300&family=Playfair+Display:ital@0;1&family=Quicksand:wght@500&family=Roboto+Mono:wght@300&family=Roboto+Slab:wght@300&family=Work+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+#main {
+    background-image: url(../res/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#welc-screen {
+    box-shadow: 0px 0px 10px rgb(84, 84, 179);
+    border-radius: 5px;
+    background-color: rgb(14, 14, 32);
+    width: 450px;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    left: 34%;
+    transition: .5s;
+}
+
+#welc-screen:hover {
+    transform: scale(1.3);
+    transition: .5s;
+}
+
+.welc-scrn-title {
+    color: aliceblue;
+}
+
+.welc-scrn-para {
+    color: aliceblue;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.welc-scrn-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 35px;
+    width: 90px;
+    font-size: 1.2em;
+    color: aliceblue;
+    background: radial-gradient(gray , black);
+    transition: .5s;
+}
+
+.welc-scrn-btn:hover {
+    letter-spacing: 2px;
+    margin-left: 2px;
+    transition: .5s;
+}
+
+.correct-ans {
+    background-color: rgb(52, 131, 52);
+}
+
+.false-ans {
+    background-color: rgb(189, 26, 26);
+}
